@@ -1,0 +1,21 @@
+{
+  "name": "projeto-site",
+  "description": "<h1>SOBRE O PROJETO</h1>\r     <p>Este é um projeto pessoal em que pretendo criar um site utilizando um pouco dos conhecimentos que adquiri ao longo dos meus estudos.\r Irei utilizar HTML, CSS, JS e Bootstrap.</p>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloM075/criando-um-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloM075/criando-um-site/issues"
+  },
+  "homepage": "https://github.com/MarceloM075/criando-um-site#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
