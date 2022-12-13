@@ -6,10 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Site</title>
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
-
-    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
+    <div class="col-lg-2 col-xxl-1 vh-100 position-fixed">
+        <li class="top-bar-height d-flex justify-content-center pt-1" id="top-bar">
+            <span>SLACA 2019</span>
+        </li>
+        <nav class="nav flex-column navbar-expand-lg">
+            <input type="checkbox" id="nav-toggle" style="display: none;">
+            <button class="navbar-toggler" style="z-index: 2;">
+                <span class="btn" id="btn-menu">button</span>
+            </button>
+            <div class="shadow vh-100" id="navbar-site" style="z-index: 1;">
+                <ul class="nav flex-column">
+                    <li class="nav-brand">
+                        <img src="" alt="">
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid" id="full-container">
+        <div class="row">
+            <div class="col-lg-2 col-xxl-1"></div>
+            <div class="col-lg-10 col-xxl-11" id="content-container">
+                <div class="top-bar-height">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veritatis asperiores molestias amet quas id alias maxime doloribus quidem? Fugiat, architecto? Est reiciendis dignissimos iste odit ab veniam impedit aut?
+                </div>
+                <div class="main-content row">
+                    <div class=" col-lg-12 row">
+                        <div class="col-lg-8 mt-3">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, nihil doloribus facere deserunt, cupiditate ipsum, eligendi ut similique magnam quam repudiandae eaque recusandae dolores amet quos numquam doloremque facilis esse!
+                        </div>
+                        <div class="col-lg-4 mt-3">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam adipisci autem ut amet! Molestias cumque soluta quod a nihil hic consequatur ab repellendus porro labore, sunt nemo eum corporis est.
+                        </div>
+                    </div>
+                    <div class="col-lg-12 row">
+                        <div class="col-lg-8 mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo autem fugit dolore deserunt quos ea rem vitae, voluptatem neque sequi magni, praesentium nesciunt maiores tempore expedita labore distinctio incidunt porro!
+                        </div>
+                        <div class="col-lg-4 mt-3">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, odit corporis deleniti error nulla laudantium nihil cupiditate nemo doloremque dignissimos, deserunt nobis expedita amet eos, facere quis obcaecati vitae eius?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
