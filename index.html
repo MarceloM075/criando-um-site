@@ -11,15 +11,15 @@
 </head>
 <body>
     <div class="col-lg-2 col-xxl-1 vh-100 position-fixed">
-        <li class="top-bar-height d-flex justify-content-center pt-1" id="top-bar">
+        <li class="topbar-height d-flex justify-content-center align-items-center pt-1" id="topbar-nav-container">
             <span>SLACA 2019</span>
         </li>
         <nav class="nav flex-column navbar-expand-lg">
-            <input type="checkbox" id="nav-toggle" style="display: none;">
+            <input type="checkbox" id="nav-checkbox" style="display: none;">
             <button class="navbar-toggler" style="z-index: 2;">
                 <span class="btn" id="btn-menu">button</span>
             </button>
-            <div class="shadow vh-100" id="navbar-site" style="z-index: 1;">
+            <div class="shadow vh-100" id="navbar-container" style="z-index: 1;">
                 <ul class="nav flex-column">
                     <li class="nav-brand">
                         <img src="" alt="">
@@ -50,11 +50,11 @@
         <div class="row">
             <div class="col-lg-2 col-xxl-1"></div>
             <div class="col-lg-10 col-xxl-11" id="content-container">
-                <div class="top-bar-height">
+                <div class="topbar-height" id="topbar-content-container">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veritatis asperiores molestias amet quas id alias maxime doloribus quidem? Fugiat, architecto? Est reiciendis dignissimos iste odit ab veniam impedit aut?
                 </div>
-                <div class="main-content row">
-                    <div class=" col-lg-12 row">
+                <div class="row" id="main-content-container">
+                    <div class="col-lg-12 row" id="title-main-content">
                         <div class="col-lg-8 mt-3">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, nihil doloribus facere deserunt, cupiditate ipsum, eligendi ut similique magnam quam repudiandae eaque recusandae dolores amet quos numquam doloremque facilis esse!
                         </div>
@@ -62,7 +62,7 @@
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam adipisci autem ut amet! Molestias cumque soluta quod a nihil hic consequatur ab repellendus porro labore, sunt nemo eum corporis est.
                         </div>
                     </div>
-                    <div class="col-lg-12 row">
+                    <div class="col-lg-12 row" id="video-main-content">
                         <div class="col-lg-8 mt-3">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo autem fugit dolore deserunt quos ea rem vitae, voluptatem neque sequi magni, praesentium nesciunt maiores tempore expedita labore distinctio incidunt porro!
                         </div>
@@ -70,9 +70,26 @@
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, odit corporis deleniti error nulla laudantium nihil cupiditate nemo doloremque dignissimos, deserunt nobis expedita amet eos, facere quis obcaecati vitae eius?
                         </div>
                     </div>
+                    <div class="col-lg-12 row" id="abstract-main-content">
+                        <div class="col-lg-12 mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo autem fugit dolore deserunt quos ea rem vitae, voluptatem neque sequi magni, praesentium nesciunt maiores tempore expedita labore distinctio incidunt porro!
+                        </div>
+                    </div>
+                    <div class="col-lg-12 row" id="discussion-main-content">
+                        <div class="col-lg-12 mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo autem fugit dolore deserunt quos ea rem vitae, voluptatem neque sequi magni, praesentium nesciunt maiores tempore expedita labore distinctio incidunt porro!
+                        </div>
+                    </div>
+                    <footer class="col-lg-12 row" id="footer-content">
+                        <div class="col-lg-12 mt-3">
+                            <hr>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo autem fugit dolore deserunt quos ea rem vitae, voluptatem neque sequi magni, praesentium nesciunt maiores tempore expedita labore distinctio incidunt porro!
+                        </div>
+                    </footer>
                 </div>
             </div>
         </div>
     </div>
+    <script src="assets\scripts\navBar.js"></script>
 </body>
 </html>
