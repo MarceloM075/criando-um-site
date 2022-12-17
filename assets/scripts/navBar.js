@@ -1,10 +1,10 @@
-const input = document.getElementById('nav-toggle')
-const navToggler = document.getElementById('btnMenu')
+const navCheckbox = document.getElementById('nav-checkbox')
+const btnMenu = document.getElementById('btn-menu')
 
-btn.onclick = function(){
-    if(input.checked){
-        input.checked = false
+btnMenu.onclick = function(){
+    if(navCheckbox.checked){
+        navCheckbox.checked = false
     }else{
-        input.checked = true
+        navCheckbox.checked = true
     }
 }
