@@ -1,0 +1,14 @@
+@media (max-width: 991px) {
+    /* FUNCIONAMENTO NAVBAR */
+    #navbar-container{
+        left: -180px;
+        position: absolute;
+        transition: all .5s;
+    }
+
+    input[type="checkbox"]:checked ~ #navbar-container{
+        transform: translateX(180px);
+        background-color: white;
+    }
+    /* FIM--FUNCIONAMENTO NAVBAR */
+}
