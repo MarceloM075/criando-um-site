@@ -1,3 +1,16 @@
+#navbar-container li a{
+    color: var(--bold-letters);
+}
+
+#navbar-container li:hover{
+    background-color: var(--light-orange);
+}
+
+#navbar-container li:nth-child(n+2){
+    border-bottom: 2px solid #E7E7E7;
+}
+
+
 @media (max-width: 991px) {
     /* FUNCIONAMENTO NAVBAR */
     #navbar-container{

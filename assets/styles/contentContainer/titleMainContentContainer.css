@@ -1,0 +1,8 @@
+#title-main-content > div:first-child, 
+#title-main-content span{
+    color: var(--dark-orange);
+}
+
+#title-main-content button{
+    background-color: var(--dark-orange);
+}

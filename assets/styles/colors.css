@@ -1,0 +1,8 @@
+:root{
+    --gradient: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    --light-orange: #FDF1EB;
+    --dark-orange: #ED7839;
+    --bold-letters: #4E4E4E;
+    --letters: #5C5C5C;
+    --white: white;
+}

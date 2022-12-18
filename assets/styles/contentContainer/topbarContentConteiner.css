@@ -1,0 +1,13 @@
+#topbar-content-container{
+    background-color: var(--light-orange);
+    border-left: 24px solid var(--light-orange);
+    border-right: 12px solid var(--light-orange);
+    color: var(--bold-letters);
+}
+
+@media (max-width: 991px) {
+    #topbar-content-container{
+        border-top: 2px solid var(--light-orange);
+        border-bottom: 2px solid var(--light-orange);
+    }
+}
