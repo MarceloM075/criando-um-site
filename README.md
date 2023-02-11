@@ -7,7 +7,9 @@ Irei utilizar HTML, CSS, JS e Bootstrap.</p>
 <br>
 
 <h2>SCRIPTS</h2>
-    Para o correto funcionamento do projeto, no diretório do mesmo utilize o comando `npm i` para instalar as dependências necessárias.
+   <p>Para o correto funcionamento do projeto, no diretório do mesmo utilize o comando 
+   `npm i` para instalar as dependências necessárias.
+   </p>
 <hr>
 
 <h1>COMO O PROJETO DEVE PARECER</h1>
