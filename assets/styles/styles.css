@@ -1,15 +1,29 @@
 @import "navBar.css";
+@import "topBarContentContainer.css";
+@import "contentContainer.css";
+@import "topBarNavContainer.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 .topbar-height{
     height: 3rem;
 }
 
-@media (max-width: 991px) {
-    #topbar-nav-container{
-        position: absolute;
-        width: 100vw;   
-    }
+#content-container>div{
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
 
+@media (max-width: 991px) {
     #full-container{
         position: absolute;
         top: 3rem;
@@ -18,14 +32,3 @@
     }
 }
 
-
-
-@media (min-width: 991px) {
-    #topbar-nav-container{
-        box-shadow: 0px .5rem 1rem rgba(0, 0, 0, .15);
-    }
-     
-    #content-container{
-        padding-left: 1.5rem;
-    }
-}
