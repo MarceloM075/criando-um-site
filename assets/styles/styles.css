@@ -16,7 +16,7 @@ html{
 }
 
 .topbar-height{
-    height: 3rem;
+    height: 4rem;
 }
 
 #content-container>div{
@@ -27,7 +27,7 @@ html{
 @media (max-width: 991px) {
     #full-container{
         position: absolute;
-        top: 3rem;
+        top: 4rem;
         z-index: -1;
         margin-top: 0.2rem;
     }
