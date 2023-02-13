@@ -1,3 +1,116 @@
 #topbar-content-container{
-    background-color: rgb(247, 198, 107);
+    background-color: var(--light-brown);
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 25px;
+}
+
+#topbar-content-container::-webkit-scrollbar{
+    background-color: transparent;
+    height: 5px;
+}
+
+#topbar-content-container::-webkit-scrollbar-thumb{
+    background-color: var(--brown);
+    height: 5px;
+    border-radius: 5px;
+}
+
+#topbar-text{
+    font-family: 'Roboto', sans-serif;
+    color: var(--brown);
+}
+
+#topbar-text h5{
+    font-size: 1.1rem;
+}
+
+#topbar-text h1{
+    font-size: 1.5rem;
+}
+
+#topbar-text>*{
+    margin: 0;
+    padding: 0;
+}
+
+#topbar-text *:first-child{
+    padding-top: 5px;
+}
+
+#topbar-language-select{
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--grey);
+    padding: 8px 8px 8px 8px;
+    border-radius: 3px;
+    gap: 5px;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+
+#topbar-language-select select{
+    border: none;
+    background-color: var(--light-brown);
+    outline-style: none;
+    cursor: pointer;
+}
+
+#topbar-user{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#topbar-welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    font-family: 'Quicksand', sans-serif;
+    color: #333333;
+    font-weight: 500;
+}
+
+#topbar-welcome p{
+    margin: 0;
+    padding: 0;
+}
+
+#topbar-welcome p:first-child{
+    font-size: 1.05rem;
+}
+
+#topbar-welcome p:last-child{
+    font-size: 0.9rem;
+}
+
+#topbar-user-icon {
+    padding-right: 15px;
+    position: relative;
+}
+
+#topbar-user-icon img{
+    border-radius: 50%;
+}
+
+#topbar-user-icon::after{
+    --red: #F85959;
+
+    content: '2';
+    position: absolute;
+    background-color: var(--red);
+    color: white;
+    border-left: 5px solid var(--red);
+    border-right: 5px solid var(--red);
+    border-radius: 50%;
+    transform: translate(-12px, -6px);
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }

@@ -20,6 +20,8 @@
 
     --orange: #ED7839;
     --orange-gradient: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+
+    --topbar-height: 5rem;
 }
 
 html{
@@ -29,7 +31,7 @@ html{
 }
 
 .topbar-height{
-    height: 4rem;
+    height: var(--topbar-height);
 }
 
 .tópicos-title{
@@ -47,7 +49,7 @@ html{
 @media (max-width: 991px) {
     #full-container{
         position: absolute;
-        top: 4rem;
+        top: var(--topbar-height);
         z-index: -1;
         margin-top: 0.2rem;
     }
