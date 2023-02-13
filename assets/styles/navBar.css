@@ -14,6 +14,10 @@
     border-bottom: 2px solid lightgrey;
 }
 
+#navbar-container ul li:nth-child(n+2):hover{
+    background-color: #FDF1EB;
+}
+
 [active]{
     background-color: #FDF1EB;
     position: relative;
