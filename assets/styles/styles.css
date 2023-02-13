@@ -7,6 +7,19 @@
 *{
     margin: 0;
     padding: 0;
+
+    --light-brown: #FDF1EB;
+    --brown: #725C5C;
+
+    --light-black: #4E4E4E;
+    --black: #333333;
+
+    --light-grey: #E7E7E7;
+    --dark-grey: #5C5C5C;
+    --grey: #ADA0A0;
+
+    --orange: #ED7839;
+    --orange-gradient: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
 }
 
 html{
@@ -17,6 +30,13 @@ html{
 
 .topbar-height{
     height: 4rem;
+}
+
+.tópicos-title{
+    color: var(--light-black);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.55rem;
 }
 
 #content-container>div{
@@ -32,4 +52,5 @@ html{
         margin-top: 0.2rem;
     }
 }
+
 
