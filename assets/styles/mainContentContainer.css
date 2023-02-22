@@ -1,11 +1,36 @@
 #main-content-container>*{
     padding: 0px 15px 0px 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #title{
     font-size: 1.3rem;
-    font-family: 'Roboto', sans-serif;
-    color: var(--orange);
     font-weight: 900;
     letter-spacing: 0.05rem;
+    color: var(--orange);
 }
+
+.btn-area{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: end;
+    justify-content: center;
+    color: var(--orange);
+    font-weight: 500;
+}
+
+.btn-custom{
+    background-color: var(--orange);
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: white;
+    text-align: center;
+}
+
+.btn-custom img {
+    padding: 0 3px 3px 3px;
+}
+
+
