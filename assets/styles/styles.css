@@ -16,13 +16,23 @@
     --black: #333333;
 
     --light-grey: #E7E7E7;
-    --dark-grey: #5C5C5C;
-    --grey: #ADA0A0;
+    --medium-grey: #4d4d4d;
+    --dark-grey: #5c5c5c;
+    --grey: #ada0a0;
 
     --orange: #ED7839;
     --orange-gradient: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
 
     --topbar-height: 5rem;
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: var(--brown);
+    border-radius: 4px;
 }
 
 .topbar-height{

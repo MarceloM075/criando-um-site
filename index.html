@@ -89,16 +89,21 @@
                                 <img src="./assets/img/doi-icon.png">
                             </button>
                         </div>
-                        <div class="text-roboto-orange">
+                        <div class="text-roboto-orange" id="main-content-buttons-text">
                             COMO CITAR ESSE TRABALHO?
                         </div>
+                        <!-- <div class="dots-area" id="main-content-buttons-options">
+                            <img src="assets/img/orange-dot.png">
+                            <img src="assets/img/orange-dot.png">
+                            <img src="assets/img/orange-dot.png">
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-12 row" id="video-main-content">
-                    <div class="col-lg-9 mt-3">
+                    <div class="col-xl-9 col-lg-8 mt-3">
                         <div id="video" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/153749651?h=50b23c33ff&color=ff9933&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                     </div>
-                    <div class="col-lg-3 mt-3">
+                    <div class="col-xl-3 col-lg-4 mt-3">
                         <div class="topic" id="details">
                             <div class="topic-title" id="details-title">
                                 Detalhes
@@ -143,14 +148,22 @@
                             <div class="topic-title">
                                 Resumo
                             </div>
-                            <div class="topic-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.
-    
-                                Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat feugiat. Proin dictum justo arcu, quis vestibulum augue lacinia quis. Sed dignissim dui nulla, ut faucibus mauris sodales id. Aliquam erat volutpat. Maecenas dolor enim, tincidunt id elit non, suscipit interdum turpis. Etiam finibus urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium lorem. Aenean interdum quis diam ac porttitor. Cras nec ipsum pulvinar, pharetra libero non, ornare enim. Etiam in laoreet odio.
-                                
-                                Nam eget tristique elit, at fermentum tellus. Mauris scelerisque ligula id eleifend feugiat. Donec eleifend vehicula sem nec dapibus. Integer scelerisque neque dui, in lacinia erat molestie eu. Phasellus maximus dui eget lacus porta tempor. Ut ex nibh, dignissim quis purus semper, efficitur facilisis turpis. Praesent blandit elementum ultricies. Aliquam sit amet enim sit amet nulla pulvinar lobortis consectetur non odio. Phasellus at lacus hendrerit, vulputate nisi sit amet, viverra mauris. Etiam eu scelerisque orci. Quisque sagittis, mi vitae pharetra iaculis, orci elit eleifend massa, eu posuere mauris odio id odio. Morbi eu libero luctus, consectetur lorem vel, interdum sapien. Aenean in porta arcu. Maecenas eu maximus massa.
-                                
-                                Praesent velit dolor, dignissim sed quam ac, efficitur porta justo. Pellentesque porta pharetra felis ut hendrerit. Nulla facilisi. Aliquam erat volutpat. Nunc sit amet faucibus quam. Maecenas dapibus luctus dolor at viverra. Duis nec fringilla libero. Duis risus nibh, viverra ac orci nec, iaculis dictum sem. Aliquam at malesuada arcu. Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            <div class="topic-text" id="text-abstract">
+                                <div id="text-div">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin<span class="reticencias">... </span><span class="text-quicksand-orange ver-mais">ver mais</span><span class="mais" style="display: none;"> ligula in sapien scelerisque, ac gravida eros vestibulum.</span>
+                                    </p> 
+                                    <div class="mais" style="display: none;">
+                                        <p>
+                                            Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat feugiat. Proin dictum justo arcu, quis vestibulum augue lacinia quis. Sed dignissim dui nulla, ut faucibus mauris sodales id. Aliquam erat volutpat. Maecenas dolor enim, tincidunt id elit non, suscipit interdum turpis. Etiam finibus urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium lorem. Aenean interdum quis diam ac porttitor. Cras nec ipsum pulvinar, pharetra libero non, ornare enim. Etiam in laoreet odio.
+                                        </p>
+                                        <p>
+                                            Nam eget tristique elit, at fermentum tellus. Mauris scelerisque ligula id eleifend feugiat. Donec eleifend vehicula sem nec dapibus. Integer scelerisque neque dui, in lacinia erat molestie eu. Phasellus maximus dui eget lacus porta tempor. Ut ex nibh, dignissim quis purus semper, efficitur facilisis turpis. Praesent blandit elementum ultricies. Aliquam sit amet enim sit amet nulla pulvinar lobortis consectetur non odio. Phasellus at lacus hendrerit, vulputate nisi sit amet, viverra mauris. Etiam eu scelerisque orci. Quisque sagittis, mi vitae pharetra iaculis, orci elit eleifend massa, eu posuere mauris odio id odio. Morbi eu libero luctus, consectetur lorem vel, interdum sapien. Aenean in porta arcu. Maecenas eu maximus massa.
+                                        </p>
+                                        <p>
+                                            Praesent velit dolor, dignissim sed quam ac, efficitur porta justo. Pellentesque porta pharetra felis ut hendrerit. Nulla facilisi. Aliquam erat volutpat. Nunc sit amet faucibus quam. Maecenas dapibus luctus dolor at viverra. Duis nec fringilla libero. Duis risus nibh, viverra ac orci nec, iaculis dictum sem. Aliquam at malesuada arcu. Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        </p> 
+                                    </div>                               
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -179,6 +192,66 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div id="discussion-bottom-area">
+                                    <div class="comments">
+                                        <div class="subject">
+                                            Assunto da pergunta aparece aqui
+                                        </div>
+                                        <div class="author">
+                                            Carlos Henrique Santos
+                                        </div>
+                                        <div class="comment-text">
+                                            Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
+                                        </div>
+                                        <div class="comments-bottom-area">
+                                            <div class="dots-area">
+                                                <img src="assets/img/orange-dot.png">
+                                                <img src="assets/img/orange-dot.png">
+                                                <img src="assets/img/orange-dot.png">
+                                            </div>
+                                            <div>
+                                                <button class="btn-custom">
+                                                    <img src="assets/img/heart-icon.png">
+                                                </button>
+                                            </div>
+                                            <div>
+                                                1 like
+                                            </div>
+                                            <div>
+                                                1 resposta
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comments">
+                                        <div class="subject text-quicksand-orange">
+                                            Assunto da pergunta aparece aqui
+                                        </div>
+                                        <div class="author">
+                                            Carlos Henrique Santos
+                                        </div>
+                                        <div class="comment-text">
+                                            Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
+                                        </div>
+                                        <div class="comments-bottom-area">
+                                            <div class="dots-area">
+                                                <img src="assets/img/orange-dot.png">
+                                                <img src="assets/img/orange-dot.png">
+                                                <img src="assets/img/orange-dot.png">
+                                            </div>
+                                            <div>
+                                                <button class="btn-custom">
+                                                    <img src="assets/img/heart-icon.png">
+                                                </button>
+                                            </div>
+                                            <div>
+                                                1 like
+                                            </div>
+                                            <div>
+                                                1 resposta
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -194,5 +267,6 @@
     </div>
     <script src="assets\scripts\navBar.js"></script>
     <script src="assets/scripts/videoMainContentHeight.js"></script>
+    <script src="assets/scripts/abstractVerMais.js"></script>
 </body>
 </html>
