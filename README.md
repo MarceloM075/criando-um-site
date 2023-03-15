@@ -4,13 +4,8 @@ Irei utilizar HTML, CSS, JS e Bootstrap.
 Este site é um exercício que tive em um processo seletivo que participei, porém desta vez quero fazer melhor, já com novos conhecimentos adquiridos.
 Estou utilizando o git durante o projeto para poder utilizar um repositório local e também praticar algumas linhas de comando que aprendi (git add, git commit, git push, git branch e git merge).
 
-
-
-## SCRIPTS
- Para o correto funcionamento do projeto, no diretório do mesmo utilize o comando:
- ### `npm i` 
- Assim as dependências necessárias serão instaladas.
-
+## LINK
+É possível ver como o projeto está por este link: [criando-um-site](https://criando-um-site-marcelom.vercel.app/).
 <hr>
 
 <h1>COMO O PROJETO DEVE PARECER</h1>
